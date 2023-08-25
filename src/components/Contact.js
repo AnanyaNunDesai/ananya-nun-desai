@@ -28,33 +28,52 @@ const Contact = () => {
     return (
         <section id="contact" className="relative">
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-                <div className="lg:w-2/3 md:w-1/2 bg-violet-950 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-                    <iframe
+                <div className="object-cover object-center rounded lg:w-2/3 md:w-1/2 bg-violet-950 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                    <img
                         width="100%"
                         height="100%"
-                        title="map"
+                        title="img"
                         className="absolute inset-0"
-                        frameBorder={0}
-                        marginHeight={0}
-                        marginWidth={0}
+                        // frameBorder={0}
+                        // marginHeight={0}
+                        // marginWidth={0}
                         style={{ filter: "opacity(0.7)" }}
-                        src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                        // src="C:/Users/kawai/Desktop/my-portfolio1/public/lolli.svg"
+                        // src="'./lolli.svg"
+                        
+                        
+                        alt="img"
+                        src="./lolli.svg"
+                    
                     />
+                    {/* <iframe
+                        src="C:\Users\kawai\Desktop\my-portfolio1\public\lolli.png"
+                        width="100%"
+                        height="100%"
+                        title="image"
+                        // style="border:0;"
+                        className="absolute inset-0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        style={{ filter: "opacity(0.7)" }}
+                        />
+                     */}
                     <div className="bg-violet-900 relative flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-violet-200 tracking-widest text-xs">
                                 ADDRESS
                             </h2>
-                            <p className="mt-1 text-violet-400">
+                            <a href="https://goo.gl/maps/ZKdSuHK6WVP5Jii96" className="mt-1 text-violet-400 hover:text-violet-200">
                                 274, Officer's Enclave, Dhaula Kuan part 2 <br />
                                 New Delhi, Delhi 110010
-                            </p>
+                            </a>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-violet-200 tracking-widest text-xs">
                                 EMAIL
                             </h2>
-                            <a className="text-violet-400 leading-relaxed">
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" className="text-violet-400 leading-relaxed hover:text-violet-200">
                                 ananyadesai2929@gmail.com
                             </a>
                             <h2 className="title-font font-semibold text-violet-200 tracking-widest text-xs mt-4">
@@ -123,3 +142,7 @@ const Contact = () => {
 }
 
 export default Contact
+
+
+
+
