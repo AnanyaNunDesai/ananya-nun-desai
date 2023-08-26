@@ -69,6 +69,14 @@ const Contact = () => {
                                 New Delhi, Delhi 110010
                             </a>
                         </div>
+                        <div className="lg:w-1/2 px-6">
+                            <h2 className="title-font font-semibold text-violet-200 tracking-widest text-xs">
+                                PLAYLIST ON REPEAT
+                            </h2>
+                            <a src='./omoriplaylist.svg' href="https://open.spotify.com/playlist/5IgJgQnPyvTtb00b2G2wt6?si=b66cd7f53a9943e6" target="_blank" rel="noreferrer">
+                                <img src="./omoriplaylist.svg" className="lg:w-1/2 px-4 mt-4 h-20 w-20" alt="playlist" />
+                            </a>
+                        </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-violet-200 tracking-widest text-xs">
                                 EMAIL
@@ -81,7 +89,7 @@ const Contact = () => {
                             </h2>
                             <p className="leading-relaxed text-violet-400">+91 70572 85644</p>
                         </div>
-                        <div className="lg:w-1/2 px-6">
+                        <div className="lg:w-1/2 px-6 mt-4">
                             <h2 className="title-font font-semibold text-violet-200 tracking-widest text-xs">
                                 OTHER LINKS
                             </h2>
@@ -202,7 +210,3 @@ const Contact = () => {
 }
 
 export default Contact
-
-
-
-
