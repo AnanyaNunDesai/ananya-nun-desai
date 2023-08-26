@@ -43,7 +43,7 @@ const Contact = () => {
 
 
                         alt="img"
-                        src="./lolli.svg"
+                        src="./lolli.png"
 
                     />
                     {/* <iframe
@@ -71,11 +71,20 @@ const Contact = () => {
                         </div>
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-violet-200 tracking-widest text-xs">
-                                PLAYLIST ON REPEAT
+                                PLAYLISTS ON REPEAT
                             </h2>
-                            <a src='./omoriplaylist.svg' href="https://open.spotify.com/playlist/5IgJgQnPyvTtb00b2G2wt6?si=b66cd7f53a9943e6" target="_blank" rel="noreferrer">
-                                <img src="./omoriplaylist.svg" className="lg:w-1/2 px-4 mt-4 h-20 w-20" alt="playlist" />
-                            </a>
+                            <div className="flex flex-row">
+                                <div>
+                                    <a href="https://open.spotify.com/playlist/46KaowzEEfEz6XBfqu86SG?si=851b98695c354228" target="_blank" rel="noreferrer">
+                                        <img src="./IMG_6427.jpg" className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://open.spotify.com/playlist/37i9dQZF1DX3ZeFHRhhi7Y?si=3ddbebc93be84fa9" target="_blank" rel="noreferrer">
+                                        <img src="./Stray Kids_ODDINARY_1.png" className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-violet-200 tracking-widest text-xs">
