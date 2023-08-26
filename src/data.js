@@ -36,14 +36,14 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Very cool as heck talented fellarino right here.",
+      "\"Placeholder Quote 1\"",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
     name: "Jesse Hicks",
     company: "Zoozle",
   },
   {
     quote:
-      "I 100% agree with the other fella, frfr.",
+      "\"Placeholder Quote 2\"",
     image: "https://randomuser.me/api/portraits/men/94.jpg",
     name: "Ruben Alvarez",
     company: "Dooble.io",

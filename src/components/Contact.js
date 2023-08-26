@@ -73,10 +73,15 @@ const Contact = () => {
                             <h2 className="title-font font-semibold text-violet-200 tracking-widest text-xs">
                                 PLAYLISTS ON REPEAT
                             </h2>
-                            <div className="flex flex-row">
+                            <div className="flex flex-row gap-x-3">
                                 <div>
                                     <a href="https://open.spotify.com/playlist/46KaowzEEfEz6XBfqu86SG?si=851b98695c354228" target="_blank" rel="noreferrer">
-                                        <img src="./IMG_6427.jpg" className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
+                                        <img src="./omoriplaylist.png" className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://open.spotify.com/playlist/4008OxeZV6arBqLsfuChCC?si=a62d6a49b0f24ba0" target="_blank" rel="noreferrer">
+                                        <img src="./19th_century_villain.png" className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
                                     </a>
                                 </div>
                                 <div>
