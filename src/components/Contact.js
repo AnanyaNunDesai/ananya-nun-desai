@@ -65,7 +65,7 @@ const Contact = () => {
                                 ADDRESS
                             </h2>
                             <a href="https://goo.gl/maps/ZKdSuHK6WVP5Jii96" target="_blank" rel="noreferrer" className="mt-1 text-violet-400 hover:text-violet-200">
-                                274, Officer's Enclave, Dhaula Kuan part 2 <br />
+                                Officer's Enclave, Dhaula Kuan part 2 <br />
                                 New Delhi, Delhi 110010
                             </a>
                         </div>
