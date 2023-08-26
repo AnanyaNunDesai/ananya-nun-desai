@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const Music = () => {
-  const url = "./test.mp3";
+  const url = "./BarbieGirl.mp3";
 
   const [isMuted, setIsMuted] = useState(false);
   const [audioTrack] = useState(new Audio(url));
