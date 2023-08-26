@@ -1,5 +1,6 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+import Music from "./BackgroundMusic";
 
 
 const NavBar = () => {
@@ -29,6 +30,7 @@ const NavBar = () => {
                     <ArrowRightIcon className="w-4 h-4 ml-1" />
                 </a>
                     {/* <div><br></br></div> */}
+                    <Music/>
                 
             </div>
         </header>
