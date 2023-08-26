@@ -1,14 +1,14 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "https://ananyanundesai.github.io/ananya-nun-desai",
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@heroicons/react": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.1",
-    "react-sound": "^1.2.0"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "craco start",
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
+    "gh-pages": "^6.0.0",
     "postcss": "^8.4.28",
     "tailwindcss": "^3.3.3"
   }
