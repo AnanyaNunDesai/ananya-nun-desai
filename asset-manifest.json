@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ananya-nun-desai/static/css/main.95977002.css",
+    "main.js": "/ananya-nun-desai/static/js/main.e2fa1ea6.js",
+    "index.html": "/ananya-nun-desai/index.html",
+    "main.95977002.css.map": "/ananya-nun-desai/static/css/main.95977002.css.map",
+    "main.e2fa1ea6.js.map": "/ananya-nun-desai/static/js/main.e2fa1ea6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95977002.css",
+    "static/js/main.e2fa1ea6.js"
+  ]
+}
