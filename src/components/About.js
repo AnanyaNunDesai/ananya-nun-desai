@@ -1,7 +1,8 @@
 import React from "react";
-import Music from "./BackgroundMusic";
+// import AudioTest from "./BackgroundAudio";
 // import Coding from '../coding_w_selfie.svg'
 import Card from "../UI/Card";
+// import AudioTest from "./BackgroundAudio";
 
 const About = () => {
 
@@ -36,17 +37,22 @@ const About = () => {
                         alt="hero"
                         src={Coding}
                     />
-                </div> */}
-                <Card className="card">
-                    <div className="mr-auto items-center justify-center">
-                        <p htmlFor="name" className="leading-7 text-sm text-violet-300">
-                            <div className="font-bold">Listen to music while you scroll!</div>
-                            <div className="text-xs italic">(Scroll to bottom for full playlist)</div>
-                        </p>
-                        <Music />
+    </div> */}
+
+
+
+                <div htmlFor="name" className="md:text-left text-sm text-violet-300 inline-block">
+                    
+
+                    {/* <AudioTest /> */}
+
+                    <div className="md:text-left text-sm text-violet-300 ">
+                        <Card className="card" />
                     </div>
-                </Card>
+                </div>
             </div>
+
+
         </section>
     );
 }
