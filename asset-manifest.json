@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ananya-nun-desai/static/css/main.382be890.css",
-    "main.js": "/ananya-nun-desai/static/js/main.a523d67d.js",
+    "main.js": "/ananya-nun-desai/static/js/main.af52c266.js",
     "index.html": "/ananya-nun-desai/index.html",
     "main.382be890.css.map": "/ananya-nun-desai/static/css/main.382be890.css.map",
-    "main.a523d67d.js.map": "/ananya-nun-desai/static/js/main.a523d67d.js.map"
+    "main.af52c266.js.map": "/ananya-nun-desai/static/js/main.af52c266.js.map"
   },
   "entrypoints": [
     "static/css/main.382be890.css",
-    "static/js/main.a523d67d.js"
+    "static/js/main.af52c266.js"
   ]
 }
