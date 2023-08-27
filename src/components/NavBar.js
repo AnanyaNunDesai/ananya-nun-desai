@@ -23,15 +23,22 @@ const NavBar = () => {
                         Testimonials
                     </a>
                 </nav>
+                {/* <div className="mr-auto flex items-center justify-center gap-x-3">
+                    <p htmlFor="name" className="leading-7 text-sm text-violet-300">
+                        Listen to music while you scroll!
+                    </p>
+                    <Music />
+                </div> */}
+
                 <a
                     href="#contact"
                     className="inline-flex items-center bg-violet-800 border-0 py-1 px-3 focus:outline-none hover:bg-violet-600 rounded text-violet-200 mt-4 md:mt-0">
                     Hire Me
                     <ArrowRightIcon className="w-4 h-4 ml-1" />
                 </a>
-                    {/* <div><br></br></div> */}
-                    {/* <Music/> */}
-                
+                {/* <div><br></br></div> */}
+                {/* <Music/> */}
+
             </div>
         </header>
     );

@@ -1,5 +1,6 @@
 import React from "react"
 import emailjs from "emailjs-com"
+// import Villain from './19th_century_villain.png'
 
 const Contact = () => {
 
@@ -197,7 +198,7 @@ const Contact = () => {
                             id="name"
                             name="name"
                             className="w-full bg-violet-950 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                            // onChange={(e) => setName(e.target.value)}
+                        // onChange={(e) => setName(e.target.value)}
                         />
                     </div>
                     <div className="relative mb-4">
@@ -208,7 +209,7 @@ const Contact = () => {
                             id="email"
                             name="email"
                             className="w-full bg-violet-950 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                            // onChange={(e) => setEmail(e.target.value)}
+                        // onChange={(e) => setEmail(e.target.value)}
                         />
                     </div>
                     <div className="relative mb-4">
@@ -221,45 +222,24 @@ const Contact = () => {
                             id="message"
                             name="message"
                             className="w-full bg-violet-950 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                            // onChange={(e) => setMessage(e.target.value)}
+                        // onChange={(e) => setMessage(e.target.value)}
                         />
                     </div>
+                    {/* <script src="https://www.google.com/recaptcha/api.js"></script>
+                    <script>
+                        function onSubmit(token) {
+                            document.getElementById("demo-form")
+                        }
+                    </script> */}
                     <button
                         type="submit"
+                        // data-sitekey="reCAPTCHA_site_key"
+                        // data-callback='onSubmit'
+                        // data-action='submit'
                         className="text-violet-200 bg-violet-600 border-0 py-2 px-6 focus:outline-none hover:bg-violet-500 rounded text-lg">
                         Submit
                     </button>
                 </form>
-                {/* <form
-                    className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
-                    onSubmit={sendEmail}>
-                    <h2 className="text-violet-200 sm:text-4xl text-3xl mb-1 font-medium title-font">
-                        Hire Me
-                    </h2>
-                    <p className="leading-relaxed mb-5 text-violet-300">
-                        Looking for cute art commissions or wish to hire me to help build your dream product? Send me a quick e-mail enquiry!
-                    </p>
-                    <div className="relative mb-4">
-                        <label htmlFor="name" className="leading-7 text-sm text-violet-300">
-                            Name
-                        </label>
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            className="w-full bg-violet-950 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        />
-                    </div>
-                    <input type="hidden" name="contact_number" />
-                    <input type="text" name="from_name" />
-                    <label>Email</label>
-                    <input type="email" name="from_email" />
-                    <label>Subject</label>
-                    <input type="text" name="subject" />
-                    <label>Message</label>
-                    <textarea name="html_message" />
-                    <input type="submit" value="Send" />
-                </form> */}
             </div>
         </section>
     );
@@ -273,3 +253,4 @@ export default Contact
 //YOUR TEMPLATE ID: template_5qd38se
 
 //YOUR USER ID: SyMtByT4SyycFfHFY
+
