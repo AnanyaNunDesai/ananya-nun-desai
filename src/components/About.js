@@ -1,6 +1,6 @@
 import React from "react";
 // import AudioTest from "./BackgroundAudio";
-// import Coding from '../coding_w_selfie.svg'
+import Coding from './../assets/coding_w_selfie.png'
 import Card from "../UI/Card";
 // import AudioTest from "./BackgroundAudio";
 
@@ -39,19 +39,42 @@ const About = () => {
                     />
     </div> */}
 
+                <div className="container px-5 md-0 flex sm:flex-nowrap flex-wrap items-end justify-end">
+                    <div className="object-cover object-center rounded lg:w-2/3 md:w-1/2 bg-violet-950 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-end relative">
 
 
-                <div htmlFor="name" className="md:text-left text-sm text-violet-300 inline-block">
-                    
+                            {/* <AudioTest /> */}
 
-                    {/* <AudioTest /> */}
 
-                    <div className="md:text-left text-sm text-violet-300 ">
-                        <Card className="card" />
+
+
+                            <img
+                                width="100%"
+                                height="100%"
+                                title="img"
+                                className="absolute inset-0"
+                                // frameBorder={0}
+                                // marginHeight={0}
+                                // marginWidth={0}
+                                style={{ filter: "opacity(0.7)" }}
+                                // src="C:/Users/kawai/Desktop/my-portfolio1/public/lolli.svg"
+                                // src="'./lolli.svg"
+
+
+                                alt="img"
+                                src={Coding}
+
+                            />
+                        <div >
+                            <div className="bg-violet-600 relative rounded shadow-md bg-opacity-80">
+                                <div className="md:text-left text-sm text-violet-300 ">
+                                    <Card className="card" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
 
         </section>
     );
