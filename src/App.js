@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
-// import Music from "./components/BackgroundMusic";
+// import AudioTest from "./components/BackgroundMusic";
 
 export default function App() {
   return (
@@ -13,6 +13,7 @@ export default function App() {
       
       <NavBar />
       {/* <Music/> */}
+      {/* <AudioTest></AudioTest> */}
       <About />
       <Projects />
       <Skills />

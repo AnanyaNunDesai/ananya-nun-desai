@@ -1,5 +1,6 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+// import AudioTest from "./BackgroundMusic";
 // import Music from "./BackgroundMusic";
 
 
@@ -23,12 +24,16 @@ const NavBar = () => {
                         Testimonials
                     </a>
                 </nav>
-                {/* <div className="mr-auto flex items-center justify-center gap-x-3">
-                    <p htmlFor="name" className="leading-7 text-sm text-violet-300">
+                {/* <div className="mr-auto items-center justify-center">
+                    {/* <p htmlFor="name" className="leading-7 text-sm text-violet-300">
                         Listen to music while you scroll!
+                    </p> 
+                    <p htmlFor="name" className="leading-7 text-sm text-violet-300">
+                        <div className="font-bold">Listen to music while you scroll!</div>
+                        <div className="text-xs italic">(Scroll to bottom for full playlist)</div>
                     </p>
-                    <Music />
-                </div> */}
+                    <AudioTest />
+    </div> */}
 
                 <a
                     href="#contact"

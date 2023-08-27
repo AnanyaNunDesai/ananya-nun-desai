@@ -1,6 +1,7 @@
 import React from "react";
 import Music from "./BackgroundMusic";
 // import Coding from '../coding_w_selfie.svg'
+import Card from "../UI/Card";
 
 const About = () => {
 
@@ -28,7 +29,7 @@ const About = () => {
                         </a>
                     </div>
                 </div>
-                
+
                 {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img
                         className="object-cover object-center rounded"
@@ -36,12 +37,15 @@ const About = () => {
                         src={Coding}
                     />
                 </div> */}
-                <div className="mr-auto items-center justify-center">
-                    <p htmlFor="name" className="leading-7 text-sm text-violet-300">
-                        Listen to music while you scroll!
-                    </p>
-                    <Music />
-                </div>
+                <Card className="card">
+                    <div className="mr-auto items-center justify-center">
+                        <p htmlFor="name" className="leading-7 text-sm text-violet-300">
+                            <div className="font-bold">Listen to music while you scroll!</div>
+                            <div className="text-xs italic">(Scroll to bottom for full playlist)</div>
+                        </p>
+                        <Music />
+                    </div>
+                </Card>
             </div>
         </section>
     );
