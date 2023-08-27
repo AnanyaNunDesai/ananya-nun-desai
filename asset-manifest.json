@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/ananya-nun-desai/static/css/main.958b6e6b.css",
-    "main.js": "/ananya-nun-desai/static/js/main.f325b128.js",
+    "main.css": "/ananya-nun-desai/static/css/main.fd2466fa.css",
+    "main.js": "/ananya-nun-desai/static/js/main.ee17411d.js",
     "static/media/looped.mp3": "/ananya-nun-desai/static/media/looped.3c7e80f77138d2fd1ffd.mp3",
+    "static/media/coding_w_selfie.png": "/ananya-nun-desai/static/media/coding_w_selfie.67154db239ef3cda29c3.png",
     "static/media/omori-omori-Cover-Art.png": "/ananya-nun-desai/static/media/omori-omori-Cover-Art.41138e34b0805e060206.png",
     "index.html": "/ananya-nun-desai/index.html",
-    "main.958b6e6b.css.map": "/ananya-nun-desai/static/css/main.958b6e6b.css.map",
-    "main.f325b128.js.map": "/ananya-nun-desai/static/js/main.f325b128.js.map"
+    "main.fd2466fa.css.map": "/ananya-nun-desai/static/css/main.fd2466fa.css.map",
+    "main.ee17411d.js.map": "/ananya-nun-desai/static/js/main.ee17411d.js.map"
   },
   "entrypoints": [
-    "static/css/main.958b6e6b.css",
-    "static/js/main.f325b128.js"
+    "static/css/main.fd2466fa.css",
+    "static/js/main.ee17411d.js"
   ]
 }
