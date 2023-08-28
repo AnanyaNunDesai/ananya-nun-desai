@@ -1,6 +1,9 @@
 import React from "react"
 import emailjs from "emailjs-com"
-// import Villain from './19th_century_villain.png'
+import Villain from './../assets/19th_century_villain.png'
+import Skz from './../assets/Stray Kids_ODDINARY_1.png'
+import Omorialbum from './../assets/omoriplaylist.png'
+import Lolli from './../assets/lolli.png'
 
 const Contact = () => {
 
@@ -56,7 +59,7 @@ const Contact = () => {
 
 
                         alt="img"
-                        src="./lolli.png"
+                        src={Lolli}
 
                     />
                     {/* <iframe
@@ -89,17 +92,17 @@ const Contact = () => {
                             <div className="flex flex-row gap-x-3">
                                 <div>
                                     <a href="https://open.spotify.com/playlist/46KaowzEEfEz6XBfqu86SG?si=851b98695c354228" target="_blank" rel="noreferrer">
-                                        <img src="./omoriplaylist.png" className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
+                                        <img src={Omorialbum} className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
                                     </a>
                                 </div>
                                 <div>
                                     <a href="https://open.spotify.com/playlist/4008OxeZV6arBqLsfuChCC?si=a62d6a49b0f24ba0" target="_blank" rel="noreferrer">
-                                        <img src="./19th_century_villain.png" className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
+                                        <img src={Villain} className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
                                     </a>
                                 </div>
                                 <div>
                                     <a href="https://open.spotify.com/playlist/37i9dQZF1DX3ZeFHRhhi7Y?si=3ddbebc93be84fa9" target="_blank" rel="noreferrer">
-                                        <img src="./Stray Kids_ODDINARY_1.png" className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
+                                    <img src={Skz} className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
                                     </a>
                                 </div>
                             </div>

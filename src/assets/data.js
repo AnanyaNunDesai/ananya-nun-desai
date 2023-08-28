@@ -1,3 +1,8 @@
+// import Proj1 from "./assets/Stego-Gif.gif"
+// import Proj2 from "./assets/Simple-Notes-App-Bordered.gif"
+// import Proj3 from "./assets/Investments-Gif.gif"
+// import Proj4 from "./assets/Expenses-Gif.gif"
+
 export const projects = [
   {
     title: "Steganographic Image Generator",
