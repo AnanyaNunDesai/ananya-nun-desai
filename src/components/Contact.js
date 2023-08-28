@@ -80,7 +80,7 @@ const Contact = () => {
                             <h2 className="title-font font-semibold text-violet-200 tracking-widest text-xs">
                                 ADDRESS
                             </h2>
-                            <a href="https://goo.gl/maps/ZKdSuHK6WVP5Jii96" target="_blank" rel="noreferrer" className="mt-1 text-violet-400 hover:text-violet-200">
+                            <a href="https://goo.gl/maps/ZKdSuHK6WVP5Jii96" target="_blank" rel="noreferrer" title="Google Maps" className="mt-1 text-violet-400 hover:text-violet-200">
                                 Officer's Enclave, Dhaula Kuan part 2 <br />
                                 New Delhi, Delhi 110010
                             </a>
@@ -92,17 +92,29 @@ const Contact = () => {
                             <div className="flex flex-row gap-x-3">
                                 <div>
                                     <a href="https://open.spotify.com/playlist/46KaowzEEfEz6XBfqu86SG?si=851b98695c354228" target="_blank" rel="noreferrer">
-                                        <img src={Omorialbum} className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
+                                        <img
+                                            src={Omorialbum}
+                                            className="lg:w-1/8 mt-4 object-scale-down h-10"
+                                            alt="playlist"
+                                            title="Omori OST" />
                                     </a>
                                 </div>
                                 <div>
                                     <a href="https://open.spotify.com/playlist/4008OxeZV6arBqLsfuChCC?si=a62d6a49b0f24ba0" target="_blank" rel="noreferrer">
-                                        <img src={Villain} className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
+                                        <img
+                                            src={Villain}
+                                            className="lg:w-1/8 mt-4 object-scale-down h-10"
+                                            alt="playlist"
+                                            title="19th Century Villain" />
                                     </a>
                                 </div>
                                 <div>
                                     <a href="https://open.spotify.com/playlist/37i9dQZF1DX3ZeFHRhhi7Y?si=3ddbebc93be84fa9" target="_blank" rel="noreferrer">
-                                    <img src={Skz} className="lg:w-1/8 mt-4 object-scale-down h-10" alt="playlist" />
+                                        <img
+                                            src={Skz}
+                                            className="lg:w-1/8 mt-4 object-scale-down h-10"
+                                            alt="playlist"
+                                            title="Kpop Workout" />
                                     </a>
                                 </div>
                             </div>

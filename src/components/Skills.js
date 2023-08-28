@@ -1,6 +1,6 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { skills } from "./../assets/data";
+import { skills } from "../data";
 
 const Skills = () => {
     return (

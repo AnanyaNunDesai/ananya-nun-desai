@@ -1,6 +1,6 @@
 import React from "react";
 import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
-import { testimonials } from "./../assets/data";
+import { testimonials } from "../data";
 
 const Testimonials = () => {
     return (
