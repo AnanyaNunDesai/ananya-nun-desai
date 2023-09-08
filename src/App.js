@@ -3,8 +3,10 @@ import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
+// import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
+import Slideshow from "./components/Slideshow";
+
 // import AudioTest from "./components/BackgroundMusic";
 
 export default function App() {
@@ -17,7 +19,8 @@ export default function App() {
       <About />
       <Projects />
       <Skills />
-      <Testimonials />
+      <Slideshow/>
+      {/* <Testimonials /> */}
       <Contact />
     </main>
   );
