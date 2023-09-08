@@ -6,19 +6,19 @@ const Slideshow = () => {
         
 
         <div>
-            <div className="flex flex-col w-full mb-20 text-violet-300 mt-20">
+            <div className="flex flex-col w-full mb-10 text-violet-300 mt-20">
                 <PencilIcon className="mx-auto inline-block w-10 mb-4" />
                 <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-violet-200 flex text-center justify-center">
                     My Art
                 </h1>
                 <p className="lg:w-2/3 mx-auto leading-relaxed text-violet-300">
-                    Here are some fun things I've tried out so far. I've learnt so much from each
-                    project I made, and I'd love if you checked them out!
+                    My love for art is immense. Be it digital or traditional, I've pacticed it for years on end. <br />
+                    Here's a few examples of how I put it to use!
                 </p>
             </div>
             <div
                 id="carouselExampleCaptions"
-                className="relative mr-20 ml-20 mb-20 mt-20 h-1/2 w-1/2 rounded-lg flex items-center justify-center"
+                className="relative mr-20 ml-20 mb-20 h-1/2 w-1/2 rounded-lg flex items-center justify-center"
                 data-carousel-init
                 data-ride="carousel">
                 {/* <!--Carousel indicators--> */}
@@ -158,3 +158,4 @@ const Slideshow = () => {
 }
 
 export default Slideshow
+

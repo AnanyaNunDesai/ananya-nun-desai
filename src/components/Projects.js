@@ -14,7 +14,7 @@ const Projects = () => {
                         Apps I've Built
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-violet-300">
-                        Here are some fun things I've tried out so far. I've learnt so much from each
+                        Here are some fun things I've tried out so far. I've learnt so much from each <br />
                         project I made, and I'd love if you checked them out!
                     </p>
                 </div>
