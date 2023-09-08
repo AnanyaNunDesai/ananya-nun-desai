@@ -19,7 +19,9 @@ export default function App() {
       <About />
       <Projects />
       <Skills />
+      <div className="text-center items-center">
       <Slideshow/>
+      </div>
       {/* <Testimonials /> */}
       <Contact />
     </main>
