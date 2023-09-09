@@ -43,7 +43,7 @@ const Contact = () => {
 
     return (
         <section id="contact" className="relative">
-            <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap mt-20 pt-20">
                 <div className="object-cover object-center rounded lg:w-2/3 md:w-1/2 bg-violet-950 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                     <img
                         width="100%"

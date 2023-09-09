@@ -18,12 +18,12 @@ export const projects = [
     link: "https://github.com/AnanyaNunDesai/android-to-do-list",
   },
   {
-    title: "Investment Tracker App",
-    subtitle: "React Hooks",
+    title: "GiftCard Service Website",
+    subtitle: "JS and Python",
     description:
-      "Always invest with caution, and keep track of all your investments. Calculate your gains and losses.",
-    image: "./Investments-Gif.gif",
-    link: "https://github.com/AnanyaNunDesai/investments-app",
+      "I created this template for a gift card service for retailers. My first ever big project.",
+    image: "./BMS_Gif1.gif",
+    link: "https://ananyanundesai.github.io/BookMyShow-Gift-Card/",
   },
   {
     title: "Expense Tracker App",

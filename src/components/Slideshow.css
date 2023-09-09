@@ -1,0 +1,22 @@
+
+.swiper-container {
+	width: 35%;
+	height: 25%;
+  object-fit: fill;
+  border-radius: 25px;
+}
+
+.swiper-pagination-bullet-active {
+	color: blueviolet;
+  /* background: blueviolet; */
+  background: blueviolet;
+}
+.swiper-button-prev {
+  color: blueviolet;
+}
+.swiper-button-next {
+  color: blueviolet;
+}
+
+
+
