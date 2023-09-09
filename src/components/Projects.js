@@ -18,7 +18,7 @@ const Projects = () => {
                         project I made, and I'd love if you checked them out!
                     </p>
                 </div>
-                <div className="flex flex-wrap -m-4">
+                <div className="flex flex-wrap m-4">
                     {projects.map((project) => (
                         <a
                             href={project.link}
@@ -29,10 +29,10 @@ const Projects = () => {
                             <div className="flex relative">
                                 <img
                                     alt="gallery"
-                                    className="absolute inset-0 w-full h-full object-cover object-center"
+                                    className="absolute inset-0 w-full h-full object-cover object-center rounded-lg"
                                     src={project.image}
                                 />
-                                <div className="px-8 py-10 relative z-10 w-full border-4 border-indigo-950 bg-violet-950 opacity-0 hover:opacity-100">
+                                <div className="px-8 py-10 relative z-10 w-full border-4 border-indigo-950 bg-violet-950 opacity-0 hover:opacity-100 rounded-lg">
                                     <h2 className="tracking-widest text-sm title-font font-medium text-violet-400 mb-1">
                                         {project.subtitle}
                                     </h2>
