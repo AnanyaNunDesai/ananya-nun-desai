@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ananya-nun-desai/static/css/main.1d5ed061.css",
-    "main.js": "/ananya-nun-desai/static/js/main.aa57f407.js",
+    "main.css": "/ananya-nun-desai/static/css/main.6aa823b2.css",
+    "main.js": "/ananya-nun-desai/static/js/main.066f5cfb.js",
     "static/media/Hero comms.png": "/ananya-nun-desai/static/media/Hero comms.4743efe39a2eafb9a9c7.png",
     "static/media/looped.mp3": "/ananya-nun-desai/static/media/looped.3c7e80f77138d2fd1ffd.mp3",
     "static/media/gay bbabies light.png": "/ananya-nun-desai/static/media/gay bbabies light.1924d0cc1141f62b6c94.png",
@@ -19,11 +19,11 @@
     "static/media/omoriplaylist.png": "/ananya-nun-desai/static/media/omoriplaylist.2fe1cbbdf4de3e4f72d9.png",
     "static/media/omori-omori-Cover-Art.png": "/ananya-nun-desai/static/media/omori-omori-Cover-Art.41138e34b0805e060206.png",
     "index.html": "/ananya-nun-desai/index.html",
-    "main.1d5ed061.css.map": "/ananya-nun-desai/static/css/main.1d5ed061.css.map",
-    "main.aa57f407.js.map": "/ananya-nun-desai/static/js/main.aa57f407.js.map"
+    "main.6aa823b2.css.map": "/ananya-nun-desai/static/css/main.6aa823b2.css.map",
+    "main.066f5cfb.js.map": "/ananya-nun-desai/static/js/main.066f5cfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d5ed061.css",
-    "static/js/main.aa57f407.js"
+    "static/css/main.6aa823b2.css",
+    "static/js/main.066f5cfb.js"
   ]
 }
