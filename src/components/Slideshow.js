@@ -11,6 +11,7 @@ import OnlyOneOf from './../assets/onlyoneofnowhite.png'
 import YoonJae from './../assets/yoonjae crouch.png'
 import Sticker from './../assets/Illustration1(hairbackstickers).png'
 import Rose from './../assets/gay bbabies light.png'
+import Shingeo from './../assets/shigeo1.png'
 
 import "swiper/swiper-bundle.min.css";
 // import 'swiper/css'
@@ -45,6 +46,9 @@ const Slideshow = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={YoonJae} />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={Shingeo} />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={OnlyOneOf} />

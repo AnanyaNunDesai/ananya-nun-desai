@@ -1,11 +1,8 @@
 import React from "react";
-// import AudioTest from "./BackgroundAudio";
 import Coding from './../assets/coding_w_selfie.png'
 import Card from "../UI/Card";
-// import AudioTest from "./BackgroundAudio";
 
 const About = () => {
-
     return (
         <section id="about">
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -30,42 +27,18 @@ const About = () => {
                         </a>
                     </div>
                 </div>
-
-                {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img
-                        className="object-cover object-center rounded"
-                        alt="hero"
-                        src={Coding}
-                    />
-    </div> */}
-
                 <div className="container px-5 md-0 flex sm:flex-nowrap flex-wrap items-end justify-end">
                     <div className="object-cover object-center rounded lg:w-2/3 md:w-1/2 bg-violet-950 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-end relative">
-
-
-                            {/* <AudioTest /> */}
-
-
-
-
-                            <img
-                                width="100%"
-                                height="100%"
-                                title="img"
-                                className="absolute inset-0"
-                                // frameBorder={0}
-                                // marginHeight={0}
-                                // marginWidth={0}
-                                style={{ filter: "opacity(0.7)" }}
-                                // src="C:/Users/kawai/Desktop/my-portfolio1/public/lolli.svg"
-                                // src="'./lolli.svg"
-
-
-                                alt="img"
-                                src={Coding}
-
-                            />
-                        <div >
+                        <img
+                            width="100%"
+                            height="100%"
+                            title="img"
+                            className="absolute inset-0"
+                            style={{ filter: "opacity(0.7)" }}
+                            alt="img"
+                            src={Coding}
+                        />
+                        <div>
                             <div className="bg-violet-600 relative rounded shadow-md bg-opacity-80">
                                 <div className="md:text-left text-sm text-violet-300 ">
                                     <Card className="card" />
@@ -75,7 +48,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
         </section>
     );
 }
