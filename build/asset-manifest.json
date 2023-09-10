@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ananya-nun-desai/static/css/main.6aa823b2.css",
-    "main.js": "/ananya-nun-desai/static/js/main.066f5cfb.js",
+    "main.css": "/ananya-nun-desai/static/css/main.6c5eac3b.css",
+    "main.js": "/ananya-nun-desai/static/js/main.5cdbae64.js",
     "static/media/Hero comms.png": "/ananya-nun-desai/static/media/Hero comms.4743efe39a2eafb9a9c7.png",
     "static/media/looped.mp3": "/ananya-nun-desai/static/media/looped.3c7e80f77138d2fd1ffd.mp3",
-    "static/media/gay bbabies light.png": "/ananya-nun-desai/static/media/gay bbabies light.1924d0cc1141f62b6c94.png",
     "static/media/lolli_square.png": "/ananya-nun-desai/static/media/lolli_square.991b2fa3abbd81825c6c.png",
     "static/media/Stray Kids_ODDINARY_1.png": "/ananya-nun-desai/static/media/Stray Kids_ODDINARY_1.2f8f69b04380b1d875b9.png",
     "static/media/Illustration1(hairbackstickers).png": "/ananya-nun-desai/static/media/Illustration1(hairbackstickers).a8265df2329433e6bc21.png",
+    "static/media/gay bbabies light.png": "/ananya-nun-desai/static/media/gay bbabies light.e30e1a1eedf9eaecaa38.png",
     "static/media/lolli.png": "/ananya-nun-desai/static/media/lolli.0613525b1b0d2e588e20.png",
     "static/media/Illustration2bg.jpg": "/ananya-nun-desai/static/media/Illustration2bg.0f9b5361a7c118e7b84b.jpg",
     "static/media/yoonjae crouch.png": "/ananya-nun-desai/static/media/yoonjae crouch.568b8160b4a2d1b65300.png",
@@ -19,11 +19,11 @@
     "static/media/omoriplaylist.png": "/ananya-nun-desai/static/media/omoriplaylist.2fe1cbbdf4de3e4f72d9.png",
     "static/media/omori-omori-Cover-Art.png": "/ananya-nun-desai/static/media/omori-omori-Cover-Art.41138e34b0805e060206.png",
     "index.html": "/ananya-nun-desai/index.html",
-    "main.6aa823b2.css.map": "/ananya-nun-desai/static/css/main.6aa823b2.css.map",
-    "main.066f5cfb.js.map": "/ananya-nun-desai/static/js/main.066f5cfb.js.map"
+    "main.6c5eac3b.css.map": "/ananya-nun-desai/static/css/main.6c5eac3b.css.map",
+    "main.5cdbae64.js.map": "/ananya-nun-desai/static/js/main.5cdbae64.js.map"
   },
   "entrypoints": [
-    "static/css/main.6aa823b2.css",
-    "static/js/main.066f5cfb.js"
+    "static/css/main.6c5eac3b.css",
+    "static/js/main.5cdbae64.js"
   ]
 }
