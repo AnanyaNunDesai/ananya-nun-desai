@@ -2,6 +2,22 @@
 
 export const projects = [
   {
+    title: "TrackMaster Application Tracker",
+    subtitle: "MERN Stack",
+    description:
+      "Keep track of all the places you applied to in this busy job-hunt season with TrackMaster!",
+    image: "./track-master.gif",
+    link: "https://github.com/AnanyaNunDesai/application-tracker-new",
+  },
+  {
+    title: "BusyBee Task Tracker",
+    subtitle: "React, Express, Node",
+    description:
+      "A cozy bee-themed task tracker to help you keep up with your daily to-dos",
+    image: "./beetasks.gif",
+    link: "https://github.com/AnanyaNunDesai/to-do-new",
+  },
+  {
     title: "Steganographic Image Generator",
     subtitle: "React and Flask",
     description:
@@ -18,20 +34,20 @@ export const projects = [
     link: "https://github.com/AnanyaNunDesai/android-to-do-list",
   },
   {
-    title: "GiftCard Service Website",
-    subtitle: "JS and Python",
-    description:
-      "I created this template for a gift card service for retailers. My first ever big project.",
-    image: "./BMS_Gif1.gif",
-    link: "https://ananyanundesai.github.io/BookMyShow-Gift-Card/",
-  },
-  {
     title: "Expense Tracker App",
     subtitle: "React",
     description:
       "As a broke college student, this expense tracker is an absolute necessity. Sort by year with an engaging UI.",
     image: "./Expenses-Gif.gif",
     link: "https://github.com/AnanyaNunDesai/finance-app2",
+  },
+  {
+    title: "BookMyShow GiftCards",
+    subtitle: "JavaScript, Python, FireBase",
+    description:
+      "A template for a website to buy and sell giftcards. You can even select the price and type.",
+    image: "./BMS_Gif1.gif",
+    link: "https://ananyanundesai.github.io/BookMyShow-Gift-Card/",
   },
 ];
 

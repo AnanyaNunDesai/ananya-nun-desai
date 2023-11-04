@@ -18,7 +18,7 @@ const Projects = () => {
                         project I made, and I'd love if you checked them out!
                     </p>
                 </div>
-                <div className="flex flex-wrap m-4">
+                <div className="flex flex-wrap items-center m-4">
                     {projects.map((project) => (
                         <a
                             href={project.link}

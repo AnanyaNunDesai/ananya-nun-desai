@@ -39,7 +39,6 @@ const Slideshow = () => {
                         <Swiper
                             navigation={true}
                             pagination={true}
-                        //   onReachEnd={() => {alert("Reached End")}}
                         >
                             <SwiperSlide>
                                 <img src={Aki} />
