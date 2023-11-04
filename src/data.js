@@ -75,4 +75,8 @@ export const skills = [
   "Git",
   "Adobe PhotoShop",
   "Node",
+  "MongoDB",
+  "TailwindCSS",
+  "TypeScript",
+  "Next.js"
 ];
