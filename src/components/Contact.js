@@ -35,8 +35,8 @@ const Contact = () => {
                                 ADDRESS
                             </h2>
                             <a href="https://goo.gl/maps/ZKdSuHK6WVP5Jii96" target="_blank" rel="noreferrer" title="Google Maps" className="mt-1 text-violet-400 hover:text-violet-200">
-                                Officer's Enclave, Dhaula Kuan part 2 <br />
-                                New Delhi, Delhi 110010
+                                Indiranagar, Bengaluru<br />
+                                Karnataka, India
                             </a>
                         </div>
                         <div className="lg:w-1/2 px-6">

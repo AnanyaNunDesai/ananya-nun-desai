@@ -73,10 +73,12 @@ export const skills = [
   "JavaScript",
   "Figma",
   "Git",
-  "Adobe PhotoShop",
+  "Python",
   "Node",
   "MongoDB",
-  "TailwindCSS",
+  "Docker",
   "TypeScript",
-  "Next.js"
+  "Next.js",
+  "Kubernetes",
+  "OpenAI"
 ];
