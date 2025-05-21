@@ -1,0 +1,49 @@
+{
+  "name": "my-portfolio",
+  "version": "0.1.0",
+  "homepage": "https://ananyanundesai.github.io/ananya-nun-desai/",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^5.9.0",
+    "@heroicons/react": "^1.0.1",
+    "create-material-tailwind": "^0.1.5",
+    "emailjs-com": "^3.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1",
+    "swiper": "^6.8.4",
+    "tw-elements": "^1.0.0-rc.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
